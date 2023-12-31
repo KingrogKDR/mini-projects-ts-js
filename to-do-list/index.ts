@@ -10,5 +10,3 @@ function addTask(){
     }
 }
 
-const addEle = document.getElementById("add-button");
-addEle?.addEventListener("click", addTask);
