@@ -3,7 +3,7 @@ function addTask(){
     let taskList = document.getElementById("todo-list");
 
     if(taskInput.value !== ""){
-        const newEle = document.createElement("task");
+        const newEle = document.createElement("li");
         newEle.textContent = taskInput.value;
         taskList?.appendChild(newEle);
         taskInput.value = "";
