@@ -13,10 +13,6 @@ tr {
   text-align: center;
   color: rgb(122, 13, 122);
 }
-.time-cell{
-  font-size: smaller;
-}
-.time-cell,
 .name-cell,
 .si-cell,
 .action-cell{
@@ -27,7 +23,6 @@ tr {
   border-top-right-radius: 12px;
 }
 @media screen and (min-width:600px) {
-  .time-cell,
   .name-cell,
   .action-cell,
   .si-cell{
